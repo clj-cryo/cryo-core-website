@@ -5,18 +5,24 @@ Often, however, what starts out as a small microservice working with occasional 
 But time pressure is a huge part of business. Sometimes the deadline just can't be moved. When that happens, the engineer is forced to make compromises. If there were more time, maybe there could have been some research spikes done to figure out the best database to use. Data streaming is clearly becoming a standard but it can take time to build the right design from the ground up to support it. But shortcuts had to be taken, and maybe some tests had to be skipped. 
 All of this adds up to technical debt. Tech debt is just like credit, buy now, pay later. Sometimes it can be ignored, but eventually, it starts to slow the development process down. Bugs start to take over the whole release cycle.Before you know it, there's almost no time for new features. In an article written by [Sonar](https://www.sonarsource.com/blog/new-research-from-sonar-on-cost-of-technical-debt/), a study made on 200 different projects revealed the annual cost for a project with one million lines of code (LoC) is $306,000. That is the equivalent of 5,500 hours of engineering time.
 
-* Data Just Won't Stop Growing
+### Data Explosion
+With the advent of Big Data and AI, our world is experiencing an explosion of data. In an article published by [G2](https://www.g2.com/articles/big-data-statistics), it is estimated that in 2025, the world will produce 463 ZB (Zeta Bytes, that's 463,000,000,000,000,000,000,000 [21 zeros] Bytes) every day at a worth of over $220 billion. 
+
+Every 60 seconds, over 5 billion people are using the Internet, creating new data. In those same 60 seconds, 16 million text messages are sent. Over $400k is spent on Amazon by customers in that time, and 500 hours of video are uploaded to YouTube. The average company now wrangles with 400 different data sources!
+
+
 * Why Do I Have to Keep Copying it All Over?
 * 
 
 ## Who is Cryo For?
-In the end, software is really about helping people solve real-world problems. Cryo is a Clojure library so right out of the gate, you know you're dealing with what could be the most productive language on the planet. Clojure is functional, flexible, and fast and fits most software needs like a glove. 
+In the end, software is really about helping people solve real-world problems. Cryo is a Clojure library that's meant to help engineers have powerful functional tools to make managing easier. Clojure is functional, flexible, and fast and fits most software needs like a glove. 
 
 The development team behind Cryo has been developing in Clojure for almost a decade and wants to share the love. That's why the heart of Cryo will always remain open source. We want the Clojure community to expand. Others need to see what they've been missing! 
+
 Cryo is an approachable library that encourages good design and lets you, the architect, keep your options open so that you can have the flexibility you need to grow your tech stack without the library getting in the way.
 
 ## All Design Decisions Come with a Cost
-https://youtu.be/RHbZk4qGazE?si=Bx3wd3ZzLkYu6Fx2
+[![Reducing The Cost of Being Wrong](https://img.youtube.com/vi/RHbZk4qGazE/0.jpg)](https://www.youtube.com/watch?v=RHbZk4qGazE)
 
 ### Red Pill or Blue Pill?
 
